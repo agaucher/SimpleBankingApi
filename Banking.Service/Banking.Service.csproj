@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Banking.Dao.Interfaces\Banking.Dao.Interfaces.csproj" />
+    <ProjectReference Include="..\Banking.Service.Interfaces\Banking.Service.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
