@@ -32,3 +32,5 @@ In addition, a swagger is available (Swashbuckle 5.0.0 beta)
 | GET |`getHistory/{accountNumber}`       | Returns all transactions and the related balance for the given account   |
 | POST |`deposit`        | Make a transaction to deposit funds on the given account (Parameters: accountNumber, amount, comment)   |
 | POST |`withdraw`       | Make a transaction to withdraw funds from the given account (Parameters: accountNumber, amount, comment)  |
+
+Use the following link to test the webapi: [Swagger](https://simplebankingapi.azurewebsites.net)
