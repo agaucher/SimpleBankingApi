@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Banking.Api.Dto
 {
-    public struct HistoryResultDto
+    public struct TransactionResultDto
     {
         public bool IsSuccess { get; set; }
         public ErrorTypeEnum ErrorType { get; set; }
